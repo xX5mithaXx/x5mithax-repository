@@ -18,8 +18,8 @@ body {
     padding: 20px;;
     background-color:light grey;
     border: 4px solid cyan;
-    border-radius: ;
-    box-shadow: ;
+    border-radius: 4px;
+    box-shadow: none;
 }
 
 */ text styling */
