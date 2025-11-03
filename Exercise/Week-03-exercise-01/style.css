@@ -5,10 +5,10 @@
 
 /* boy styling */
 body {
-    font-family: ;
-    background-color: ;
-    margin: ;
-    padding: ;
+    font-family:'Times New Roman', Times, serif;
+    background-color:lightblue;
+    margin:0px auto;
+    padding: 0px auto;
 }
 
 */ card container */
@@ -16,20 +16,20 @@ body {
     max: width 600px;
     margin:0 auto;
     padding: 20px;;
-    background-color: ;
-    border: ;
+    background-color:light grey;
+    border: 4px solid cyan;
     border-radius: ;
     box-shadow: ;
 }
 
 */ text styling */
 .card h1 {
-    color: ;
-    font-size: ;
-    margin-bottom: ;
+    color:black;
+    font: size 14px;
+    margin-bottom:0 auto;
 }
 
 .card p {
-    color: ;
-    line-height: ;
+    color:blueviolet;
+    line-height:0 auto;
 }
