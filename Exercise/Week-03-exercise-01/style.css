@@ -3,3 +3,33 @@
     box-sizing:border-box;
 }
 
+/* boy styling */
+body {
+    font-family: ;
+    background-color: ;
+    margin: ;
+    padding: ;
+}
+
+*/ card container */
+.card {
+    max: width 600px;
+    margin:0 auto;
+    padding: 20px;;
+    background-color: ;
+    border: ;
+    border-radius: ;
+    box-shadow: ;
+}
+
+*/ text styling */
+.card h1 {
+    color: ;
+    font-size: ;
+    margin-bottom: ;
+}
+
+.card p {
+    color: ;
+    line-height: ;
+}
