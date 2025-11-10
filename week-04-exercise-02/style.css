@@ -42,13 +42,16 @@ main>p {
 }
 
 .collection-grid {
-    margin: 48px 0;
+    display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
 .collection-card {
-    border: 1px solid rgba(0, 0, 0, 0.25);
-    background-color: #fafafa;
-    padding: 16px;
+    flex: 1 1 300px;
+  display: flex;       
+  flex-direction: column;
 }
 
 .collection-card img {
@@ -78,4 +81,18 @@ main>p {
     font-size: 16px;
     margin-bottom: 0;
     line-height: 1.6;
+}
+
+/* ------------ Tablet Layout (≥480px) ------------ */
+@media (width >= 480px) {
+  .collection-card {
+    flex-basis: 45%;
+  }
+}
+
+/* ------------ Desktop Layout (≥1024px) ------------ */
+@media (width >= 1024px) {
+  .collection-card {
+    flex-basis: 30%;
+  }
 }
